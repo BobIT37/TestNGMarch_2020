@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8601" started-at="2020-03-14T01:20:59Z" finished-at="2020-03-14T01:21:08Z">
+  <suite name="Default suite" duration-ms="8872" started-at="2020-03-18T11:42:50 EDT" finished-at="2020-03-18T11:42:59 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8601" started-at="2020-03-14T01:20:59Z" finished-at="2020-03-14T01:21:08Z">
-      <class name="com.hubspot.tests.LoginPFTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hubspot.tests.LoginPFTest@186978a6]" name="setUp" is-config="true" duration-ms="7746" started-at="2020-03-13T21:21:00Z" finished-at="2020-03-13T21:21:07Z">
+    <test name="Default test" duration-ms="8872" started-at="2020-03-18T11:42:50 EDT" finished-at="2020-03-18T11:42:59 EDT">
+      <class name="com.hubspot.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hubspot.tests.LoginPageTest@443dbe42]" name="setUp" is-config="true" duration-ms="7785" started-at="2020-03-18T11:42:50 EDT" finished-at="2020-03-18T11:42:58 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.hubspot.tests.LoginPFTest@186978a6]" name="loginTest" duration-ms="600" started-at="2020-03-13T21:21:07Z" finished-at="2020-03-13T21:21:08Z">
+        <test-method status="PASS" signature="loginTest1()[pri:2, instance:com.hubspot.tests.LoginPageTest@443dbe42]" name="loginTest1" duration-ms="849" started-at="2020-03-18T11:42:58 EDT" description="Login test using correct username and correct password" finished-at="2020-03-18T11:42:59 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.tests.LoginPFTest@186978a6]" name="tearDown" is-config="true" duration-ms="86" started-at="2020-03-13T21:21:08Z" finished-at="2020-03-13T21:21:08Z">
+        </test-method> <!-- loginTest1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.tests.LoginPageTest@443dbe42]" name="tearDown" is-config="true" duration-ms="88" started-at="2020-03-18T11:42:59 EDT" finished-at="2020-03-18T11:42:59 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.hubspot.tests.LoginPFTest -->
+      </class> <!-- com.hubspot.tests.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
