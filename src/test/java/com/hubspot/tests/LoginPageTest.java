@@ -15,7 +15,7 @@ import com.hubspot.pages.LoginPage;
 import com.hubspot.util.Constants;
 
 
-@Listeners(com.hubspot.listeners.TestAllureListener.class)
+
 public class LoginPageTest {
 	
 	Logger log = Logger.getLogger("LoginPageTest");
