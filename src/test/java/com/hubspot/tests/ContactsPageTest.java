@@ -34,6 +34,7 @@ public class ContactsPageTest {
 		loginPage = new LoginPage(driver);
 		homePage = loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
 		contactsPage = homePage.gotoContactsPage();
+		
 
 	}
 	
